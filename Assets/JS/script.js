@@ -16,13 +16,13 @@ function runApi(){
             })
         .then(function(data){
             getServerData(data);
+            console.log(data);
         })
 
-        console.log(response.json)
 };
 
 function getServerData(data){
-    const weatherURL = `https://api.openweathermap.org/data/3.0/onecall?lat=`+data[0].lat+`&lon=`+data[0].lon+`&appid=219054b9bdf3d5200fce0e0280cbeec4&units=imperial`;
+    const weatherURL = `https://api.openweathermap.org/data/2.5/weather?lat=`+data[0].lat+`&lon=`+data[0].lon+`&appid=219054b9bdf3d5200fce0e0280cbeec4`;
     fetch(weatherURL)
         .then(function(response){
             if(response.ok){
