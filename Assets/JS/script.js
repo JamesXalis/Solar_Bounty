@@ -1,5 +1,4 @@
 const now = new Date();
-console.log(now)
 const searched = document.getElementById("city-search");
 const cityName = document.getElementById("city");
 const $searchBtn = document.getElementById('btn');
@@ -16,7 +15,6 @@ function getDays(){
     const date = now.getUTCDate() +'/' + months[month] + '/' + now.getUTCFullYear();
 
     
-    console.log(day)
     for (i=0 ; i < 6; i++){
         document.getElementById('wday' + (i + 1)).innerHTML = days[(day + i) % days.length]
         console.log(days[(day + i) % days.length])
