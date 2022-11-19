@@ -20,8 +20,6 @@ value: green = low, yellow = moderate, orange = high, red = very high, purple = 
 The application is also able to save and display previous searches. To visit the deployed application follow this link: 
 
 
-
-
 ## Credits
 
 N/A
