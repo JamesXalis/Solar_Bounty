@@ -18,6 +18,7 @@ To use this application you can type the name of any city you would like weather
 apppear beneath that. Any errors thrown by the fetch method are caught and an alert will pop up if an empty string is submitted. The uv index will be color coded based on its 
 value: green = low, yellow = moderate, orange = high, red = very high, purple = extreme. An emoji will also appear in the main display and forecast display signifying the local weather conditions. 
 The application is also able to save and display previous searches. To visit the deployed application follow this link: 
+https://jamesxalis.github.io/Solar_Bounty/
 
 
 ## Credits
